@@ -12,6 +12,12 @@ a {
     color: #000;
     cursor: pointer;
 }
+button {
+    cursor: pointer;
+    outline: none;
+    background:inherit;
+    border:none;
+}
 .header {
     width: 100%;
     font-size: 18px;
@@ -21,7 +27,6 @@ a {
 .container {
     max-width: 1124px;
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
     position: relative;
     padding: 0 16px 0 8px;
@@ -45,7 +50,6 @@ a {
 .header__right {
     display: flex;
     width: 100%;
-    justify-content:center;
 }
 .header__nav {
     display: flex;
@@ -71,14 +75,14 @@ a {
 .main-menu__item::after {
     content:"";
     width: 0;
-    height: 3px;
+    height: 2px;
     position: absolute;
     background-color: #818181;
 }
 .main-menu__item::before {
     content:"";
     width: 0;
-    height: 2px;
+    height: 1px;
     position: absolute;
     background-color: #818181;
 }
@@ -96,10 +100,6 @@ a {
     align-items:center;
 }
 .btn-search {
-    background:#fff;
-    border:none;
-    outline: none;
-    cursor: pointer;
     vertical-align: middle;
     z-index: 1;
 }
@@ -134,7 +134,7 @@ a {
     padding: 0 16px 0 8px;
     overflow: hidden;
 }
-.line{
+.line {
     width: 30px;
     height: 3px;
     background-color: #3b3b3b;
@@ -207,12 +207,6 @@ a {
     }
     .mobile-menu {
         display: block;
-    }
-     .mobile-menu__button {
-        border:none;
-        background-color:#fff;
-        outline: none;
-        cursor: pointer;
     }
     .header__left {
         width:100%;
