@@ -4,7 +4,7 @@ const searchButton = document.getElementById("search"),
       form = document.getElementById("form"),
       closeSearchButton = document.getElementById("close__search"),
       buttonMenu = document.getElementById("button-menu"),
-      navCover = document.getElementById("nav-cover");
+      navCover = document.getElementById("mobile");
 
     searchButton.addEventListener("click", () => { 
       form.classList.add("open");
@@ -28,5 +28,5 @@ const searchButton = document.getElementById("search"),
 
     buttonMenu.addEventListener("click", () => {
         buttonMenu.classList.toggle("is-active");
-        navCover.classList.toggle("opened");
+        navCover.classList.toggle("mobile");
     });
