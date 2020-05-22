@@ -135,11 +135,11 @@ button {
     overflow: hidden;
 }
 .line {
+    display: block;
     width: 30px;
     height: 3px;
     background-color: #3b3b3b;
-    display: block;
-    margin: 6px auto;
+    margin-top: 6px;
     transition: .3s;
 }
 #button-menu.is-active .line:nth-child(2){
