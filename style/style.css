@@ -167,7 +167,10 @@ button {
         top: -400px;
         overflow: hidden;
         transition: .8s;
-        z-index: -1;
+        background-color:#fff;
+    }
+    .header__left {
+        z-index: 1;
         background-color:#fff;
     }
     .mobile {
