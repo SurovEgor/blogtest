@@ -26,6 +26,7 @@ button {
     font-size: 18px;
     box-shadow: 0px 0px 16px rgb(212, 212, 212);
     background-color:#fff;
+    margin-bottom: 30px;
 }
 .container {
     max-width: 1124px;
@@ -217,6 +218,7 @@ button {
     }
 }
 .footer {
+    margin-top: 30px;
     width: 100%;
     background-color:#fff;
     box-shadow: 0px 0px 16px rgb(212, 212, 212);
@@ -319,4 +321,38 @@ button {
     .footer-menu__link {
         height: 50px;
     }
+}
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1124px;
+    margin: 0 auto;
+}
+.main-page {
+    background-color:#fff;
+    padding: 8px;
+}
+.side-panel {
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.aside__block {
+    background-color:#fff; 
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+.aside__block:last-child {
+    margin: 0;
+}
+.banner {
+    background-image: url('/banner.jpg');
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.main-page {
+    width: 100%;
+    margin-right: 20px;
 }
