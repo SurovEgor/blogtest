@@ -327,6 +327,7 @@ button {
     justify-content: space-between;
     max-width: 1124px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .main-page {
     background-color:#fff;
@@ -355,4 +356,9 @@ button {
 .main-page {
     width: 100%;
     margin-right: 20px;
+}
+@media screen and (max-width:786px) {
+    .side-panel {
+        display: none;
+    }
 }
